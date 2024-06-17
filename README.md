@@ -1,2 +1,4 @@
 # QHY600-Picomotor-Rasterizing
-QHY600 interface
+QHY600 camera interface
+New Focus Picomotor
+
