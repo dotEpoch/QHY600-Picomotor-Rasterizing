@@ -3,7 +3,9 @@ function DisplaySpectrum(frame)
 
 %% Realigned spectro 2024-08-16, T=-7C, texp=40s, Ext Fullwell Mode, Gain 26
 %Rstack=fitsread("Stack_16bits_5frames_200s.fits");
-Rsing=fitsread("Capture_00008.fits");
+%Rsing=fitsread(frame);
+imshow(frame);
+Rsing = frame;
 
 %% Rotating frame
 %Rstack=imrotate(Rstack,-0.15,'crop');
